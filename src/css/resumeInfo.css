@@ -1,0 +1,15 @@
+.resumeResponsiveHeader {
+  text-align: center;
+}
+
+.sectionHeadUnderline {
+  border-color: #16afc9;
+  width: 100%;
+  border-width: 10px;
+}
+
+@media (min-width: 992px) {
+  .resumeResponsiveHeader {
+    text-align: left;
+  }
+}

@@ -1,0 +1,11 @@
+a.noStyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.noStyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}

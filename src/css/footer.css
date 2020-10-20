@@ -1,0 +1,13 @@
+.footerBG {
+  background-color: #191919;
+  color: #16afc9;
+}
+
+.footerBtn {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footerBtn:hover {
+  color: #16afc9 !important;
+}

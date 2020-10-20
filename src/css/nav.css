@@ -1,0 +1,44 @@
+.navHeader {
+  font-weight: bolder;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  background-color: #ebeeee;
+  z-index: 1;
+}
+
+.noBGNav {
+  font-weight: bolder;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.navItemActive {
+  color: #16afc9;
+}
+
+.navItemActive:hover {
+  text-decoration: none;
+  color: #16afc9;
+}
+
+.navItemActive:link {
+  text-decoration: none;
+  color: #16afc9;
+}
+
+.hideNav {
+  display: none;
+}

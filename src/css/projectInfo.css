@@ -1,0 +1,26 @@
+.projectTileBarhoppers {
+  height: 300px;
+  width: 300px;
+  background: #161415 url("../imgs/barhoppers_tile.PNG");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100% !important; */
+  background-size: cover !important;
+  background-position-x: center;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-style: solid;
+  border-width: 3px;
+  border-color: #161415; */
+}
+
+.barhoppersTileOverlay {
+  background-color: #161415;
+  opacity: 0.85;
+  height: inherit;
+  border-radius: inherit;
+  box-shadow: inherit;
+}
+
+.hideOverlay {
+  display: none;
+}

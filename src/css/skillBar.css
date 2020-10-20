@@ -1,0 +1,16 @@
+.skillTrack {
+  background-color: #cccccc;
+  height: 40px;
+  position: relative;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillBar {
+  background-color: #313131;
+  height: 100%;
+  position: relative;
+  display: block;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}

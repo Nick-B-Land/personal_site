@@ -1,0 +1,107 @@
+/* .homeContainer {
+  background-image: url("../imgs/anthony-delanoix-OIdEdgsiYdM-unsplash.jpg");
+  background-size: cover;
+  height: 500px;
+} */
+
+.homeContainer {
+  height: 100vh;
+  /* min-height: 500px; */
+  width: 100%;
+  background: #161415 url("../imgs/anthony-delanoix-OIdEdgsiYdM-unsplash.jpg");
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.homeLeadName {
+  font-size: 40px;
+}
+
+.homeCenter {
+  color: #ffffff;
+  border-radius: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 25%;
+}
+
+.homeDownBtn {
+  display: none;
+}
+
+.homeText {
+  padding-top: 10%;
+  font-size: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.homeInfoLine {
+  display: none;
+}
+
+.homeSocialsRow {
+  padding-top: 2rem;
+}
+
+.socialsBtn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.socialsBtn:hover {
+  color: #16afc9 !important;
+}
+
+@media (min-width: 992px) {
+  .homeCenter {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    color: #ffffff;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .homeLeadName {
+    font-size: 80px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .homeText {
+    padding-top: 1rem;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .homeInfoLine {
+    display: block;
+    border-color: #ebeeee;
+    width: 70%;
+  }
+
+  .homeSocialsRow {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .homeDownBtn {
+    color: #ebeeee;
+    display: inline;
+  }
+
+  .homeDownBtn:hover {
+    color: #16afc9 !important;
+  }
+}
