@@ -65,7 +65,7 @@ const ResumeInfo = () => {
             and Docker.
           </p>
           <p className="px-3 px-lg-0">
-            I gained wide breadth of knowledge and skills relating to software
+            I gained a wide breadth of knowledge and skills relating to software
             development, in several different languages and technologies. I am
             well trained and eager to begin applying my skills.
           </p>
