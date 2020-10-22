@@ -45,15 +45,15 @@ const ResumeInfo = () => {
           <p className="px-3 px-lg-0">
             There were several courses devoted to web development, covering the
             basics of HTML and CSS then quickly diving into Javascript. One
-            course was a studio style learning experience where myself and a
-            team of four others worked on a Co-Working booking and filtering web
-            app, which was a practical and fun taste of the development
-            lifecycle. It also gave me plenty of experience working with API's.
-            The end of my web experience was diving into ReactJS, which I
-            discovered I had a good aptitude for, while also scratching the
-            surface of web security. During a major project I gained a lot of
-            valuable experience working with a NoSQL database and integrating it
-            with react, getting my first taste of full-stack development.
+            course was a studio style learning experience where I and a team of
+            four others worked on a Co-Working booking and filtering web app,
+            which was a practical and fun taste of the development lifecycle. It
+            also gave me plenty of experience working with API's. The end of my
+            web experience was diving into ReactJS, which I discovered I had a
+            good aptitude for, while also scratching the surface of web
+            security. During a major project I gained a lot of valuable
+            experience working with a NoSQL database and integrating it with
+            react, getting my first taste of full-stack development.
           </p>
           <p className="px-3 px-lg-0">
             I also covered topics that were outside of pure coding as well.
