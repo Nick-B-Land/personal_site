@@ -21,39 +21,53 @@ const ResumeInfo = () => {
             During my two years at Bow Valley, I covered a wide breadth of
             topics relating to software development. Starting with the basics of
             programming with C++, then moving on to object orientated
-            programming with C# and data structures/algorithms with Java.
-            Through these courses I worked on multiple console applications,
-            developed a AI system for a unity game, created a appointment
-            booking system, created a choose your own adventure text game with
-            trees, created a brick breaker knockoff game and many more. We moved
-            on from C++ fairly quickly, but I spent a lot of quality coding time
-            with C# and Java. I also gained a lot of experience working with
-            relational databases, with two major databases designed and
-            implemented in SQL server, along with plenty of practice with
+            programming with C# and data structures/algorithms with Java. We
+            moved on from C++ fairly quickly, but I spent a lot of quality
+            coding time with C# and Java. I also gained a lot of experience
+            working with relational databases, with two major databases designed
+            and implemented in SQL server, along with plenty of practice with
             querying.
+            <br /> <br />
+            Throughout these courses I developed:
           </p>
+          <ul className="resumeUL">
+            <li className="resumeLI">Multiple console applications</li>
+            <li className="resumeLI">An AI system for a unity game</li>
+            <li className="resumeLI">
+              An appointment booking system with Window Forms
+            </li>
+            <li className="resumeLI">
+              A choose your own adventure text game built on trees
+            </li>
+            <li className="resumeLI">A brick breaker knockoff game </li>
+            <li className="resumeLI">Many other small projects</li>
+          </ul>
           <p className="px-3 px-lg-0">
             There were several courses devoted to web development, covering the
             basics of HTML and CSS then quickly diving into Javascript. One
-            course was a studio style learning experience where me and a team of
-            4 others worked on Co-Working booking and filtering web app, which
-            was a very practical, and fun, taste of the development lifecycle,
-            while also giving plenty of experience working with API's. The end
-            of my web experience was diving into ReactJS, which I discovered I
-            had a good aptitude for, while also scratching the surface of web
-            security. During a major project I gained a lot of valuable
-            experience working with a NoSQL database and integrating it with
-            react, getting my first taste of full-stack development.
+            course was a studio style learning experience where myself and a
+            team of four others worked on a Co-Working booking and filtering web
+            app, which was a practical and fun taste of the development
+            lifecycle. It also gave me plenty of experience working with API's.
+            The end of my web experience was diving into ReactJS, which I
+            discovered I had a good aptitude for, while also scratching the
+            surface of web security. During a major project I gained a lot of
+            valuable experience working with a NoSQL database and integrating it
+            with react, getting my first taste of full-stack development.
           </p>
           <p className="px-3 px-lg-0">
-            I covered topics that were outside of pure coding as well. Project
-            management, and the agile development process was a prominent focus
-            throughout my diploma. There was also time spent studying systems
-            anaylsis, and I practiced designing several systems. Devops was also
-            covered at the end of diploma and I got my feet wet in the cloud,
-            gaining practical experience with AWS, Azure, and Docker. All said I
-            gained wide breadth of knowledge and skills relating to software
-            development, in several different languages and technologies.
+            I also covered topics that were outside of pure coding as well.
+            Project management and the agile development process was a prominent
+            focus throughout my diploma. In addition, there was time spent
+            studying systems anaylsis, and I practiced designing several
+            systems. DevOps was also covered at the end of diploma and I got my
+            feet wet in the cloud, gaining practical experience with AWS, Azure,
+            and Docker.
+          </p>
+          <p className="px-3 px-lg-0">
+            I gained wide breadth of knowledge and skills relating to software
+            development, in several different languages and technologies. I am
+            well trained and eager to begin applying my skills.
           </p>
         </div>
       </div>

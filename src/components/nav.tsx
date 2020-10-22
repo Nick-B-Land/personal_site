@@ -18,17 +18,17 @@ const Nav = () => {
         setSiteLocation("home");
       } else if (scrollPosition >= 935 && scrollPosition < 1400)
         setSiteLocation("about");
-      else if (scrollPosition >= 1400 && scrollPosition < 3900)
+      else if (scrollPosition >= 1400 && scrollPosition < 4100)
         setSiteLocation("resume");
-      else if (scrollPosition >= 3900) setSiteLocation("projects");
+      else if (scrollPosition >= 4100) setSiteLocation("projects");
     } else {
       if (scrollPosition < 600) {
         setSiteLocation("home");
       } else if (scrollPosition >= 600 && scrollPosition < 1400)
         setSiteLocation("about");
-      else if (scrollPosition >= 1400 && scrollPosition < 5200)
+      else if (scrollPosition >= 1400 && scrollPosition < 5500)
         setSiteLocation("resume");
-      else if (scrollPosition >= 5200) setSiteLocation("projects");
+      else if (scrollPosition >= 5500) setSiteLocation("projects");
     }
   }, [scrollPosition]);
 

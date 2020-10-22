@@ -21,9 +21,9 @@ const HomeInfo = (props: any) => {
         <div className="row pb-1">
           <div className="col d-flex align-items-center">
             <h5 className="homeText">
-              I'm a Software Developer currently based in Calgary, Alberta.
-              Young, talented, and passionate, I give 150% to every project I
-              work on. Currently seeking new opportunities.
+              I'm a Software Developer based in Calgary, Alberta. Young,
+              talented and passionate, I give 150% to every project I work on.
+              Currently seeking new opportunities wherever they may take me.
             </h5>
           </div>
         </div>

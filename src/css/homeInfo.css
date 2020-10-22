@@ -1,12 +1,5 @@
-/* .homeContainer {
-  background-image: url("../imgs/anthony-delanoix-OIdEdgsiYdM-unsplash.jpg");
-  background-size: cover;
-  height: 500px;
-} */
-
 .homeContainer {
   height: 100vh;
-  /* min-height: 500px; */
   width: 100%;
   background: #161415 url("../imgs/anthony-delanoix-OIdEdgsiYdM-unsplash.jpg");
   background-size: cover !important;

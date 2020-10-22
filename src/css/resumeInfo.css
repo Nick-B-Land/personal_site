@@ -8,6 +8,26 @@
   border-width: 10px;
 }
 
+.resumeUL {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.resumeUL li::before {
+  content: "\2022";
+  color: #16afc9;
+  font-weight: bolder;
+  display: inline-block;
+  width: 2rem;
+  font-size: 25px;
+  margin-left: -1rem;
+}
+
+.resumeLI {
+  color: #343a40;
+  font-weight: bolder;
+}
+
 @media (min-width: 992px) {
   .resumeResponsiveHeader {
     text-align: left;

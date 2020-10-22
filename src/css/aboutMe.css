@@ -5,3 +5,14 @@
   background-size: cover !important;
   border-radius: 50%;
 }
+
+.btnColor {
+  color: #16afc9;
+  font-weight: bolder;
+}
+
+.aboutBtnHover:hover {
+  background-color: #16afc9;
+  border-color: #16afc9;
+  opacity: 0.8;
+}
