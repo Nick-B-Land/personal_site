@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/homeInfo.css";
 import Nav from "./nav";
+import gsap from "gsap";
 
 const HomeInfo = (props: any) => {
+  useEffect(() => {
+    let tl = gsap.timeline();
+    tl.fromTo(
+      ".homeContainer",
+      { width: "0%" },
+      { width: "100%", duration: 1.5, ease: "power1.easeInOut" }
+    ).fromTo(
+      ".homeCenter",
+      { x: "-150%" },
+      { x: 0, duration: 1, ease: "power1" },
+      1
+    );
+  });
+
   return (
     <div className="container-fluid py-5 homeContainer" id="home">
       <div className="row">

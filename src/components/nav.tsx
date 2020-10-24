@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/nav.css";
+import gsap from "gsap";
 
 const Nav = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -33,6 +34,12 @@ const Nav = () => {
   }, [scrollPosition]);
 
   useEffect(() => {
+    gsap.fromTo(
+      "#nav",
+      { opacity: -1, y: 50 },
+      { opacity: 1, y: 0, duration: 3, ease: "power1", delay: 1 }
+    );
+
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
