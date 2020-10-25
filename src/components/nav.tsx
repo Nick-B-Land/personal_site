@@ -37,7 +37,7 @@ const Nav = () => {
     gsap.fromTo(
       "#nav",
       { opacity: -1, y: 50 },
-      { opacity: 1, y: 0, duration: 3, ease: "power1", delay: 1 }
+      { opacity: 1, y: 0, duration: 2, ease: "power1", delay: 1 }
     );
 
     window.addEventListener("scroll", handleScroll, { passive: true });
